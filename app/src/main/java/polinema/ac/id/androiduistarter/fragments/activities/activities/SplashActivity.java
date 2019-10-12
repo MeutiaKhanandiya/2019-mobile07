@@ -1,4 +1,4 @@
-package polinema.ac.id.androiduistarter.fragments.activities;
+package polinema.ac.id.androiduistarter.fragments.activities.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -18,8 +18,9 @@ public class SplashActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(SplashActivity.this,WelcomeActivity.class));
+                startActivity(new Intent(SplashActivity.this, WelcomeActivity.class));
                 finish();
             }
-        },5000);
+        }, 5000);
     }
+}
